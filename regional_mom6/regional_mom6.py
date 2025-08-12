@@ -1144,6 +1144,7 @@ class experiment:
             .ffill("lat")
             .bfill("lat")
             .ffill(varnames["zl"])
+            .bfill(varnames["zl"])
         )
 
         ic_raw_u = (
@@ -1153,6 +1154,7 @@ class experiment:
             .ffill("lat")
             .bfill("lat")
             .ffill(varnames["zl"])
+            .bfill(varnames["zl"])
         )
 
         ic_raw_v = (
@@ -1162,6 +1164,7 @@ class experiment:
             .ffill("lat")
             .bfill("lat")
             .ffill(varnames["zl"])
+            .bfill(varnames["zl"])
         )
 
         ic_raw_eta = (
